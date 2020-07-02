@@ -36,7 +36,7 @@
 <h6 class="justify-content-center" style="font-weight:bold;">Maximo: 100  </h6>
 <form class="navbar-form justify-content-center " action="albuns.php" metod="get">
   <div class="input-group">
-    <input name='num' type="number" class="form-control" placeholder="Numero de elementos" max="100">
+    <input name='num' type="number" class="form-control" placeholder="Numero de elementos" min="0" max="100">
     <div class="input-group-btn">
       <button class="btn btn-info" type="submit">
         <i class="glyphicon glyphicon-search"></i>
