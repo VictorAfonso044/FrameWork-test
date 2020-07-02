@@ -8,7 +8,7 @@
 
     <title>Teste 4</title>  
     <meta name="keywords" content="">
-    <meta name="description" content="Teste tecnico padawan">
+    <meta name="description" content="Teste técnico padawan">
     <meta name="author" content="Victor Afonso">
     <link rel="stylesheet" href="style.css">    
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
