@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Teste 4</title>  
     <meta name="keywords" content="">
-    <meta name="description" content="Teste tecnico padawan">
+    <meta name="description" content="Teste técnico padawan">
     <meta name="author" content="Victor Afonso">
     <link rel="stylesheet" href="style.css">    
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -32,11 +32,11 @@
     </ul>
   </div>
 </nav>
-<h1 class="justify-content-center mb-50"> Informe o numero de dados que deseja:</h1>
+<h1 class="justify-content-center mb-50"> Informe o némero de dados que deseja:</h1>
 <h6 class="justify-content-center" style="font-weight:bold;">Maximo: 100  </h6>
 <form class="navbar-form justify-content-center " action="postagens.php" metod="get">
   <div class="input-group">
-    <input name='num' type="number" class="form-control" placeholder="Numero de elementos" min="0" max="100">
+    <input name='num' type="number" class="form-control" placeholder="Némero" min="0" max="100">
     <div class="input-group-btn">
       <button class="btn btn-info" type="submit">
         <i class="glyphicon glyphicon-search"></i>
