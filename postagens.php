@@ -33,9 +33,10 @@
   </div>
 </nav>
 <h1 class="justify-content-center mb-50"> Informe o numero de dados que deseja:</h1>
+<h6 class="justify-content-center" style="font-weight:bold;">Maximo: 100  </h6>
 <form class="navbar-form justify-content-center " action="postagens.php" metod="get">
   <div class="input-group">
-    <input name='num' type="text" class="form-control" placeholder="Numero de elementos">
+    <input name='num' type="number" class="form-control" placeholder="Numero de elementos" max="100">
     <div class="input-group-btn">
       <button class="btn btn-info" type="submit">
         <i class="glyphicon glyphicon-search"></i>
