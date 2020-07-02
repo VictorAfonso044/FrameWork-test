@@ -117,4 +117,6 @@ background-image: linear-gradient(to right top, #051937, #004b74, #0084aa, #00c1
     padding: 1em;
   }
 }
-
+.form-control{
+    padding: 10px !important ;
+}
