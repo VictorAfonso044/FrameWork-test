@@ -1,0 +1,106 @@
+.nav-link{
+	color: #010101;
+	font-size: 18px;
+	padding: 0px 10px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+ .nav-link:hover{
+	background: #481268;
+	color: #ffffff;
+	border-radius: 10px;
+}
+.d-flex{
+	display: flex;
+} 
+.justify-content-center{
+	display: flex;
+	justify-content: center;
+}
+ul{
+	list-style-type: none;
+}
+h1{
+	font-family: 'Roboto', sans-serif;
+	
+}
+.body-link{
+	color: #010101;
+	font-size: 18px;
+	padding: 10px ;
+	margin: 10px ;
+    border-radius: 10px;
+	font-family: 'Roboto', sans-serif;
+	background: #481268 ;
+	text-align: center;
+	width: 30%;
+}
+.body-link:hover{
+	background-image: linear-gradient(to right top, #051937, #142a6b, #44369d, #8335c9, #cd12eb);
+	background-size: 100%;
+    background-image: -moz-linear-gradient(top, #051937 0%, #580166 100%);
+    background-image: -webkit-linear-gradient(top, #051937 0%, #580166 100%);
+    background-image: linear-gradient(to bottom, #051937 0%, #580166 100%);
+    box-shadow: 0px 0px 5px 0px #5A3760;
+    transform: scale(1.025);
+    z-index: 2;
+}
+.body-link a {
+	color: white;
+	font-size: 18px;
+	padding: 10px 20px;
+	margin: 10px 20px;
+}	
+.body-link a:hover {
+	text-decoration: none;
+	color: white;
+}
+.mb-50{
+	margin: 50px;
+}
+.responstable {
+  margin: 1em 0;
+  width: 100%;
+  overflow: hidden;
+  background: #FFF;
+  color: #024457;
+  border-radius: 10px;
+  border: 2px solid #00C9B1;
+background-image: linear-gradient(to right top, #051937, #004b74, #0084aa, #00c1d0, #11ffe3);
+}
+.responstable tr {
+
+  border: 2px solid #fff;
+}
+.responstable th {
+  display: none;
+  border: 1px solid white;
+  color: #FFF;
+  padding: 1em;
+  text-transform:uppercase;
+ 
+}
+
+.responstable td {
+  display: block;
+  word-wrap: break-word;
+  max-width: 7em;
+}
+
+@media (min-width: 480px) {
+  .responstable td {
+    border: 2px solid #fff;
+  }
+}
+.responstable th, .responstable td {
+  text-align: center;
+  margin: .5em 1em;
+  color: white;
+}
+@media (min-width: 480px) {
+  .responstable th, .responstable td {
+    display: table-cell;
+    padding: 1em;
+  }
+}
+
