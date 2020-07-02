@@ -13,7 +13,13 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
-
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
 <nav class="navbar navbar-inverse ">
@@ -26,7 +32,17 @@
     </ul>
   </div>
 </nav>
-
+<h1 class="justify-content-center mb-50"> Informe o numero de dados que deseja:</h1>
+<form class="navbar-form justify-content-center " action="albuns.php" metod="get">
+  <div class="input-group">
+    <input name='num' type="text" class="form-control" placeholder="Numero de elementos">
+    <div class="input-group-btn">
+      <button class="btn btn-info" type="submit">
+        <i class="glyphicon glyphicon-search"></i>
+      </button>
+    </div>
+  </div>
+</form>
  <table class="responstable ">
 
   <tr>
@@ -35,7 +51,8 @@
     <th>titulo</th>
   </tr>
       <?php
-  $inc= 16 ;
+  error_reporting(0);       
+  $inc= $_GET["num"] + 1;
   for( $i=1 ;$i<$inc;$i++){
   $url = "https://jsonplaceholder.typicode.com/albums/". $i;
   $data = json_decode(file_get_contents($url));
